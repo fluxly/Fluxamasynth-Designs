@@ -1,0 +1,13 @@
+Fluxamasynth32 Notes
+
+* Internal analog voltage reference is 1.1V (but may vary per chip). You can route the aref to a gpio pin for calibration. 
+* You can also change the range of the the aref using the set Attenuation function:
+
+  analogSetAttenuation(ADC_0db);     // AREF = 1.1V
+  analogSetAttenuation(ADC_6db);     // AREF = about 1.9V
+  analogSetAttenuation(ADC_11db); 
+  
+* Resolution can be 12 bits but that's very non-linear. 11 bits seems fine.
+
+analogReadResolution(11);
+

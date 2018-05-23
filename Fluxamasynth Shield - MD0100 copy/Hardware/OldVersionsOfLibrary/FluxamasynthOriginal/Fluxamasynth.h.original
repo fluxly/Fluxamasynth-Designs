@@ -1,0 +1,31 @@
+/* 
+    Fluxamasynth.h
+    A library to facilitate playing music on the Modern Device Fluxamasynth board.
+    More info at www.moderndevice.com
+    This software is in the public domain.
+*/
+
+#include "WProgram.h"
+
+#ifndef Fluxamasynth_h
+#define Fluxamasynth_h
+
+class Fluxamasynth
+{
+  public:
+    Fluxamasynth();
+    void noteOn(byte channel, byte pitch, byte velocity);
+    void noteOff(byte channel, byte pitch);
+    void programChange (byte bank, byte channel, byte v);
+    void pitchBend(byte channel, int v);
+    void pitchBendRange(byte channel, byte v);
+    void midiReset();
+    void setChannelVolume(byte channel, byte level);
+	void allNotesOff(byte channel);
+    void setMasterVolume(byte level);
+    void setReverb(byte channel, byte program, byte level, byte delayFeedback);
+    void setChorus(byte channel, byte program, byte level, byte feedback, byte chorusDelay);
+  private:
+};
+
+#endif

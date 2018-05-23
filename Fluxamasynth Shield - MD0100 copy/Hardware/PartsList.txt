@@ -1,0 +1,50 @@
+Partlist
+
+Exported from FluxamasynthShield.sch at 12/22/10 11:38 AM
+
+EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value                      Device                     Package        Library             Sheet
+
+C1       10uf                       C-USC0805                  C0805          rcl                 1
+C2       2.2uF                      C-USC0805                  C0805          rcl                 1
+C3       .1uf                       C-USC0805                  C0805          rcl                 1
+C4       .1uf                       C-USC0805                  C0805          rcl                 1
+C5       2.2uF                      C-USC0805                  C0805          rcl                 1
+C6       1uF                        C-USC0805                  C0805          rcl                 1
+C7       18pf                       C-USC0805                  C0805          rcl                 1
+C8       18pf                       C-USC0805                  C0805          rcl                 1
+C9       .1uf                       C-USC0805                  C0805          rcl                 1
+C10      .1uf                       C-USC0805                  C0805          rcl                 1
+C11      2.2uF                      C-USC0805                  C0805          rcl                 1
+C12      470pf                      C-USC0805                  C0805          rcl                 1
+D1                                  DIODESOD123                SOD123         ng                  1
+IC1                                 REGULATORSOT23             SOT23          ng                  1
+JP1                                 PINHD-1X3                  1X03           pinhead             1
+JP3                                 PINHD-1X3                  1X03           pinhead             1
+Q2       9.6MHz                     CRYSTALTC26H               TC26H          crystal             1
+R1       220                        R-US_M0805                 M0805          rcl                 1
+R2       10                         R-US_M0805                 M0805          rcl                 1
+R3       3.3k                       R-US_M0805                 M0805          rcl                 1
+R4                                  R-US_M0805                 M0805          rcl                 1
+R6       0                          R-US_M0805                 M0805          rcl                 1
+R7       10                         R-US_M0805                 M0805          rcl                 1
+R10      220                        R-US_M0805                 M0805          rcl                 1
+R11      10k                        R-US_M0805                 M0805          rcl                 1
+R12      220                        R-US_M0805                 M0805          rcl                 1
+R13      3.3k                       R-US_M0805                 M0805          rcl                 1
+S1                                  6MM_SWITCH6MM_SWITCH       6MM_SWITCH     ng                  1
+U$1      ATSAM2195                  ATSAM2195                  ATSAM2195      ATSAM2195           1
+U$2      ARDUINODUEMILANOVE-NOHOLES ARDUINODUEMILANOVE-NOHOLES ARDUINO-NOHOLE adafruit            1
+U$3                                 LED1206                    1206           ng                  1
+U$4      1X6HEADER                  1X6HEADER                  1X6HEADER      ModernDeviceHeaders 1
+U$5      1X6HEADER                  1X6HEADER                  1X6HEADER      ModernDeviceHeaders 1
+U$6      1X8HEADER                  1X8HEADER                  1X8HEADER      ModernDeviceHeaders 1
+U$7      1X8HEADER                  1X8HEADER                  1X8HEADER      ModernDeviceHeaders 1
+U$8      1X6HEADER                  1X6HEADER                  1X6HEADER      ModernDeviceHeaders 1
+U$9      1X6HEADER                  1X6HEADER                  1X6HEADER      ModernDeviceHeaders 1
+U$10     1X8HEADER                  1X8HEADER                  1X8HEADER      ModernDeviceHeaders 1
+U$11     1X8HEADER                  1X8HEADER                  1X8HEADER      ModernDeviceHeaders 1
+U$12     1X6HEADER                  1X6HEADER                  1X6HEADER      ModernDeviceHeaders 1
+U$13     1X6HEADER                  1X6HEADER                  1X6HEADER      ModernDeviceHeaders 1
+X1       STEREOJACK                 STEREOJACK                 STX3100        adafruit            1

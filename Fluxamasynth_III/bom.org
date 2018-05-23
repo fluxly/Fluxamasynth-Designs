@@ -1,0 +1,24 @@
+| Part                                   | Value                               | Device                   | Description               |
+|----------------------------------------+-------------------------------------+--------------------------+---------------------------|
+| 3.3V                                   | 3.3V                                | SOT23                    |                           |
+| C1,C3,C7,C11,C13,C18                   | 10uf                                | C-USC0805                | CAPACITOR                 |
+| C2,C4,C5,C6,C8,C12,C14,C17,C19,C20,C21 | .1uf                                | C-USC0603                | CAPACITOR                 |
+| C9,C10                                 | 22pf                                | C-USC0805                | CAPACITOR                 |
+| C15                                    | 220pf                               | C-USC0805                | CAPACITOR                 |
+| C16                                    | 1uf                                 | C-USC0805                | CAPACITOR                 |
+| D1                                     | BLUE                                | LED1206                  | LEDs                      |
+| D2,D3                                  |                                     | DIODE_SOD-123            | Diode                     |
+| JACK                                   | STEREOJACK                          | STEREOJACK               | MIC/HEADPHONE JACK        |
+| L1,L2,L3,L4,L5                         | NFM21CC223R1H3D                     | NFM21CC223R1H3D          | NOISE FILTER              |
+| MIC_JACK                               |                                     | M02PTH                   | Header 2                  |
+| MIDI_JACK                              | MIDIJACK                            | MIDIJACK                 | DIN 5/MIDI jack           |
+| OPTOCOUPLER                            | HCPL0500                            | HCPL0500                 | HP OPTOCOUPLER            |
+| PC1,PC2                                | 100u                                | CPOL-USE                 | POLARIZED CAPACITOR       |
+| Q1                                     | CX3225GB12000P0HPQCC, 253-1168-1-ND | MODERNDEVICE_XTAL-4-3225 | 4-pin 3.2 x 2.5mm crystal |
+| R1                                     | 1K                                  | R-US_R0603               | RESISTOR                  |
+| R2,R4                                  | 4.7k                                | R-US_R0603               | RESISTOR                  |
+| R3,R5                                  | 220                                 | R-US_R0603               | RESISTOR                  |
+| R6,R8                                  | 47k                                 | R-US_R0603               | RESISTOR                  |
+| R7                                     | 100k                                | R-US_R0603               | RESISTOR                  |
+| RESET                                  |                                     | 6MM_SWITCH6MM_SWITCH     | OMRON SWITCH              |
+| SAM2695                                | SAM2695                             | SAM2695                  |                           |

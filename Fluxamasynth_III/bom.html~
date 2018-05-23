@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>bom</title>
+<!-- 2015-09-03 Thu 11:02 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Modern Device" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">bom</h1>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Part</th>
+<th scope="col" class="left">Value</th>
+<th scope="col" class="left">Device</th>
+<th scope="col" class="left">Package</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">3.3V</td>
+<td class="left">3.3V</td>
+<td class="left">REGULATORSOT23</td>
+<td class="left">SOT23</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">C1,C3,C7,C11,C13,C18</td>
+<td class="left">10uf</td>
+<td class="left">C-USC0805</td>
+<td class="left">C0805</td>
+<td class="left">CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">C2,C17,C21</td>
+<td class="left">.1uf</td>
+<td class="left">C-USC0805</td>
+<td class="left">C0805</td>
+<td class="left">CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">C4,C5,C6,C8,C12,C14,C19,C20</td>
+<td class="left">.1uf</td>
+<td class="left">C-USC0603K</td>
+<td class="left">C0603K</td>
+<td class="left">CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">C9,C10</td>
+<td class="left">22pf</td>
+<td class="left">C-USC0805</td>
+<td class="left">C0805</td>
+<td class="left">CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">C15</td>
+<td class="left">220pf</td>
+<td class="left">C-USC0805</td>
+<td class="left">C0805</td>
+<td class="left">CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">C16</td>
+<td class="left">1uf</td>
+<td class="left">C-USC0805</td>
+<td class="left">C0805</td>
+<td class="left">CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">C18</td>
+<td class="left">10uf</td>
+<td class="left">C-USC0805</td>
+<td class="left">C0805</td>
+<td class="left">CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">D1</td>
+<td class="left">&#xa0;</td>
+<td class="left">LED1206</td>
+<td class="left">LED-1206</td>
+<td class="left">LEDs</td>
+</tr>
+
+<tr>
+<td class="left">D2,D3</td>
+<td class="left">&#xa0;</td>
+<td class="left">DIODE<sub>SOD</sub>-123</td>
+<td class="left">SOD-123</td>
+<td class="left">Diode</td>
+</tr>
+
+<tr>
+<td class="left">JACK</td>
+<td class="left">STEREOJACK</td>
+<td class="left">STEREOJACK</td>
+<td class="left">STX3100</td>
+<td class="left">MIC/HEADPHONE JACK</td>
+</tr>
+
+<tr>
+<td class="left">L1,L2,L3,L4,L5</td>
+<td class="left">NFM21CC223R1H3D</td>
+<td class="left">NFM21CC223R1H3D</td>
+<td class="left">3PC</td>
+<td class="left">CAPACITOR-TYPE NOISE SUPPRESSION FILTER digikey #NFM21CC223R1H3D</td>
+</tr>
+
+<tr>
+<td class="left">MIC<sub>JACK</sub></td>
+<td class="left">&#xa0;</td>
+<td class="left">M02PTH</td>
+<td class="left">1X02</td>
+<td class="left">Header 2</td>
+</tr>
+
+<tr>
+<td class="left">MIDI<sub>JACK</sub></td>
+<td class="left">MIDIJACK</td>
+<td class="left">MIDIJACK</td>
+<td class="left">CP-2350</td>
+<td class="left">DIN 5 jack also known as MIDI jack</td>
+</tr>
+
+<tr>
+<td class="left">OPTOCOUPLER</td>
+<td class="left">HCPL0500</td>
+<td class="left">HCPL0500</td>
+<td class="left">SOIC08</td>
+<td class="left">HEWLETT PACKARD OPTO COUPLER</td>
+</tr>
+
+<tr>
+<td class="left">PC1,PC2</td>
+<td class="left">100u</td>
+<td class="left">CPOL-USE</td>
+<td class="left">PANASONIC<sub>E</sub></td>
+<td class="left">POLARIZED CAPACITOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">Q1</td>
+<td class="left">CX3225GB12000P0HPQCC, 253-1168-1-ND</td>
+<td class="left">MODERNDEVICE<sub>XTAL</sub>-4-3225</td>
+<td class="left">MODERNDEVICE<sub>NX3225</sub></td>
+<td class="left">Classic 4-pin 3.2 x 2.5mm crystal</td>
+</tr>
+
+<tr>
+<td class="left">R1</td>
+<td class="left">1K</td>
+<td class="left">R-US<sub>R0603</sub></td>
+<td class="left">R0603</td>
+<td class="left">RESISTOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">R2,R4</td>
+<td class="left">4.7k</td>
+<td class="left">R-US<sub>R0603</sub></td>
+<td class="left">R0603</td>
+<td class="left">RESISTOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">R3,R5</td>
+<td class="left">220</td>
+<td class="left">R-US<sub>R0603</sub></td>
+<td class="left">R0603</td>
+<td class="left">RESISTOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">R6,R8</td>
+<td class="left">47k</td>
+<td class="left">R-US<sub>R0603</sub></td>
+<td class="left">R0603</td>
+<td class="left">RESISTOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">R7</td>
+<td class="left">100k</td>
+<td class="left">R-US<sub>R0603</sub></td>
+<td class="left">R0603</td>
+<td class="left">RESISTOR, American symbol</td>
+</tr>
+
+<tr>
+<td class="left">RESET</td>
+<td class="left">&#xa0;</td>
+<td class="left">6MM<sub>SWITCH6MM</sub><sub>SWITCH</sub></td>
+<td class="left">6MM<sub>SWITCH</sub></td>
+<td class="left">OMRON SWITCH</td>
+</tr>
+
+<tr>
+<td class="left">SAM2695</td>
+<td class="left">SAM2695</td>
+<td class="left">SAM2695</td>
+<td class="left">QFN48</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Modern Device</p>
+<p class="date">Created: 2015-09-03 Thu 11:02</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.51.2 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

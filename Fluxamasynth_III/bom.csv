@@ -1,0 +1,26 @@
+| Part                        | Value                               | Device                         | Package                  | Description                                                      |
+|-----------------------------+-------------------------------------+--------------------------------+--------------------------+------------------------------------------------------------------|
+| 3.3V                        | 3.3V                                | REGULATORSOT23                 | SOT23                    |                                                                  |
+| C1,C3,C7,C11,C13,C18        | 10uf                                | C-USC0805                      | C0805                    | CAPACITOR, American symbol                                       |
+| C2,C17,C21                  | .1uf                                | C-USC0805                      | C0805                    | CAPACITOR, American symbol                                       |
+| C4,C5,C6,C8,C12,C14,C19,C20 | .1uf                                | C-USC0603K                     | C0603K                   | CAPACITOR, American symbol                                       |
+| C9,C10                      | 22pf                                | C-USC0805                      | C0805                    | CAPACITOR, American symbol                                       |
+| C15                         | 220pf                               | C-USC0805                      | C0805                    | CAPACITOR, American symbol                                       |
+| C16                         | 1uf                                 | C-USC0805                      | C0805                    | CAPACITOR, American symbol                                       |
+| C18                         | 10uf                                | C-USC0805                      | C0805                    | CAPACITOR, American symbol                                       |
+| D1                          |                                     | LED1206                        | LED-1206                 | LEDs                                                             |
+| D2,D3                       |                                     | DIODE_SOD-123                  | SOD-123                  | Diode                                                            |
+| JACK                        | STEREOJACK                          | STEREOJACK                     | STX3100                  | MIC/HEADPHONE JACK                                               |
+| L1,L2,L3,L4,L5              | NFM21CC223R1H3D                     | NFM21CC223R1H3D                | 3PC                      | CAPACITOR-TYPE NOISE SUPPRESSION FILTER digikey #NFM21CC223R1H3D |
+| MIC_JACK                    |                                     | M02PTH                         | 1X02                     | Header 2                                                         |
+| MIDI_JACK                   | MIDIJACK                            | MIDIJACK                       | CP-2350                  | DIN 5 jack also known as MIDI jack                               |
+| OPTOCOUPLER                 | HCPL0500                            | HCPL0500                       | SOIC08                   | HEWLETT PACKARD OPTO COUPLER                                     |
+| PC1,PC2                     | 100u                                | CPOL-USE                       | PANASONIC_E              | POLARIZED CAPACITOR, American symbol                             |
+| Q1                          | CX3225GB12000P0HPQCC, 253-1168-1-ND | MODERNDEVICE_XTAL-4-3225       | MODERNDEVICE_NX3225      | Classic 4-pin 3.2 x 2.5mm crystal                                |
+| R1                          | 1K                                  | R-US_R0603                     | R0603                    | RESISTOR, American symbol                                        |
+| R2,R4                       | 4.7k                                | R-US_R0603                     | R0603                    | RESISTOR, American symbol                                        |
+| R3,R5                       | 220                                 | R-US_R0603                     | R0603                    | RESISTOR, American symbol                                        |
+| R6,R8                       | 47k                                 | R-US_R0603                     | R0603                    | RESISTOR, American symbol                                        |
+| R7                          | 100k                                | R-US_R0603                     | R0603                    | RESISTOR, American symbol                                        |
+| RESET                       |                                     | 6MM_SWITCH6MM_SWITCH           | 6MM_SWITCH               | OMRON SWITCH                                                     |
+| SAM2695                     | SAM2695                             | SAM2695                        | QFN48                    |                                                                  |

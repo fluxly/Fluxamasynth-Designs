@@ -1,0 +1,11 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.0.0*%
+%TF.CreationDate,2018-05-01T01:03:05Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Shawn Wallace <fluxama@gmail.com>*%
+%TJ.B_ID,FluxamasynthPi*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+M02*

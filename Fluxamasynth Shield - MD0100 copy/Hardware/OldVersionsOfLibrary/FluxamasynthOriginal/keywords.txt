@@ -1,0 +1,11 @@
+Fluxamasynth	KEYWORD1
+noteOn		KEYWORD2
+noteOff		KEYWORD2
+programChange	KEYWORD2
+pitchBend	KEYWORD2
+pitchBendRange	KEYWORD2
+midiReset	KEYWORD2
+setChannelVolume	KEYWORD2
+setMasterVolume	KEYWORD2
+setReverb	KEYWORD2
+setChorus	KEYWORD2

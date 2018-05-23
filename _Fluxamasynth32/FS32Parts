@@ -1,0 +1,62 @@
+Partlist
+
+Exported from Fluxamasynth32.sch at 5/21/18 7:10 PM
+
+EAGLE Version 9.0.0 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part           Value                          Device                         Package                  Library           Sheet
+
+ALT_MIDI_IN->  M01PTH                         M01PTH                         1X01                     ModernDevice      1
+ALT_MIDI_IN->1 M01PTH                         M01PTH                         1X01                     ModernDevice      1
+C1             10uf                           C-USC0805K                     C0805K                   ModernDevice      1
+C2             .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C3             10uf                           C-USC0805K                     C0805K                   ModernDevice      1
+C4             .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C5             .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C6             .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C7             10uf                           C-USC0805K                     C0805K                   ModernDevice      1
+C8             .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C9             22pf                           C-USC0603                      C0603                    ModernDevice      1
+C10            22pf                           C-USC0603                      C0603                    ModernDevice      1
+C11            10uf                           C-USC1206                      C1206                    ModernDevice      1
+C12            .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C13            10uf                           C-USC1206                      C1206                    ModernDevice      1
+C14            .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C15            220pf                          C-USC0805K                     C0805K                   ModernDevice      1
+C16            1uf                            C-USC0603K                     C0603K                   ModernDevice      1
+C18            10uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C19            .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C20            .1uf                           C-USC0603K                     C0603K                   ModernDevice      1
+C21            .1uF                           C-USC0603K                     C0603K                   ModernDevice      1
+J1             POWER_JACKSLT                  POWER_JACKSLT                  POWER_JACK_SLOT          ModernDevice      1
+JACK           STEREOJACK                     STEREOJACK                     STX3100                  ModernDevice      1
+JP1                                           M03PTH                         1X03                     ModernDevice      1
+JP2                                           M06NO_SILK                     1X06_NO_SILK             ModernDevice      1
+JP3                                           M06NO_SILK                     1X06_NO_SILK             ModernDevice      1
+JP4                                           M06NO_SILK                     1X06_NO_SILK             ModernDevice      1
+JP5                                           M06NO_SILK                     1X06_NO_SILK             ModernDevice      1
+JP7                                           M041X04_NO_SILK                1X04_NO_SILK             ModernDevice      1
+L3             NFM21CC223R1H3D                NFM21CC223R1H3D                3PC                      ModernDevice      1
+L4             NFM21CC223R1H3D                NFM21CC223R1H3D                3PC                      ModernDevice      1
+L5             NFM21CC223R1H3D                NFM21CC223R1H3D                3PC                      ModernDevice      1
+LED                                           LED0603                        LED-0603                 ModernDevice      1
+MIC_JACK                                      M02PTH                         1X02                     ModernDevice      1
+NET_TIE        MODERNDEVICE_SOLDERJUMPERTRACE MODERNDEVICE_SOLDERJUMPERTRACE MODERNDEVICE_SJ_2S-TRACE BBLeo_v2          1
+PC1            100u                           C-USC1206K                     C1206K                   ModernDevice      1
+PC2            100u                           C-USC1206K                     C1206K                   ModernDevice      1
+R1             1K                             R-US_R0603                     R0603                    ModernDevice      1
+R2             1K                             R-US_R0603                     R0603                    ModernDevice      1
+R3             1K                             R-US_R0603                     R0603                    ModernDevice      1
+R4             4.7k                           R-US_R0603                     R0603                    ModernDevice      1
+R5             220                            R-US_R0603                     R0603                    ModernDevice      1
+R6             47k                            R-US_R0603                     R0603                    ModernDevice      1
+R7             100k                           R-US_R0603                     R0603                    ModernDevice      1
+R8             47k                            C-USC0603K                     C0603K                   ModernDevice      1
+S3                                            6MM_SWITCH6MM_SWITCH           6MM_SWITCH               fab               1
+S4                                            6MM_SWITCH6MM_SWITCH           6MM_SWITCH               fab               1
+SAM2695        SAM2695                        SAM2695                        QFN48                    ModernDevice      1
+U1             ESP-WROOM-03                   ESP-WROOM-03                   ESP-WROOM-03             esp32             1
+U2             V_REG_317SMD                   V_REG_317SMD                   SOT223                   ModernDevice      1
+Y1                                            CRYSTALTXC-7A                  CRYSTAL-TXC-7A           SparkFun-FreqCtrl 1
